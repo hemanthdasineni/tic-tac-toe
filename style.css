@@ -1,0 +1,50 @@
+h1{
+    text-align: center;
+    text-transform: capitalize;
+    font:
+  italic 1.2rem "Fira Sans",
+  serif;
+  font-size: 60px;
+  color: aqua;
+}
+.heading
+{
+    background-color: black;
+}
+.outerbox
+{  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items:center ;
+
+}
+.innerbox
+{ height: 70vh;
+    width:70vh;
+    border: 20px solid brown;
+    display:grid;
+    grid-template-rows: 1fr 1fr 1fr ;
+    grid-template-columns:1fr 1fr 1fr;
+}
+.innerbox > *
+{
+    border: 2px solid ;
+    margin: 0px;
+    font-size: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+body
+{
+    background-image: url(./pexels-kellie-churchman-371878-1001676.jpg);
+    background-size: cover;
+}
+
+
+
+
+
+
+    
